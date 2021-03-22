@@ -1,5 +1,9 @@
 en este caso hice un tiempo de 100ms
 TMR0 de 8bits
+Fosc = 4000000 Mhz
+FCY = Fosc/4
+FCY = 1Mhz
+TCY = 1/FCY
 TCY = 1us
 100ms/1us = 100 000 // sobrepasa al valor de 8bits --> 256
 uso preescaler de 512
