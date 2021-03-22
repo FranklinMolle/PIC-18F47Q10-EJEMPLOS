@@ -1,0 +1,7 @@
+en este caso hice un tiempo de 100ms
+TMR0 de 8bits
+TCY = 1us
+100ms/1us = 100 000 // sobrepasa al valor de 8bits --> 256
+uso preescaler de 512
+100ms/512*1us = 195,312 ~-> 195
+valor de carga para el TMR0 = 256-195 = 61
