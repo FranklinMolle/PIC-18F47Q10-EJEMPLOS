@@ -1,0 +1,2 @@
+en este caso hice un tiempo de 100ms
+TCY = 1us
